@@ -40,7 +40,7 @@ class Color:
 
 
     def __add__(self, other):
-        pass
+        self.add(other.toString())
 
     def toString(self):
         if self.red == 1 and self.green == 1 and self.blue == 1:
