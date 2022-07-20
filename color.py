@@ -1,3 +1,4 @@
+
 class Color:
     def __init__( self, value ):
         self.red = 0
@@ -7,6 +8,7 @@ class Color:
 
         
     def add( self, value ):
+        value = value.lower()
         if value == "white":
             self.red = 1
             self.blue = 1
