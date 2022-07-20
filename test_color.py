@@ -21,3 +21,9 @@ def test_uppercase():
     c1 = Color("Red")
     c1.add("Green")
     assert c1.toString() == "yellow"
+
+def test_operator():
+    c1 = Color("blue")
+    c2 = Color("yellow")
+    c1 + c2
+    assert c1.toString() == "white"
